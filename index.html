@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaily Gujarathi | Azure Deployment</title>
+
+    <!-- CSS inside same file -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 40px;
+            background: rgba(0,0,0,0.5);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        section {
+            padding: 30px;
+        }
+
+        .about, .tech, .interaction {
+            margin: 20px auto;
+            width: 80%;
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: #00c6ff;
+            color: black;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0072ff;
+            color: white;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 15px;
+            background: rgba(0,0,0,0.6);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>☁️ Shaily Gujarathi</h1>
+        <p>Azure Deployed Web Application</p>
+    </header>
+
+    <section class="about">
+        <h2>About This Deployment</h2>
+        <p>
+            This application was built and deployed using Microsoft Azure Static Web Apps 
+            as part of the Cloud Computing with Azure industry expert session assignment.
+        </p>
+        <p>
+            The goal was to demonstrate the ability to host and deploy a web application 
+            using Azure's cloud infrastructure.
+        </p>
+    </section>
+
+    <section class="tech">
+        <h2>Technologies Used</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>GitHub Integration</li>
+            <li>Azure Static Web Apps</li>
+        </ul>
+    </section>
+
+    <section class="interaction">
+        <h2>Try Interaction</h2>
+        <button onclick="showMessage()">Click Me 🚀</button>
+        <p id="msg"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 Shaily Gujarathi | Deployed on Azure ☁️</p>
+    </footer>
+
+    <!-- JS inside same file -->
+    <script>
+        function showMessage() {
+            document.getElementById("msg").innerText =
+            "🔥 Successfully running on Azure Cloud!";
+        }
+    </script>
+
+</body>
+</html>
